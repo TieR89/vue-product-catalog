@@ -7,7 +7,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
   },
   "main": "index.js",
   "dependencies": {
@@ -15,6 +16,7 @@
   },
   "devDependencies": {
     "@vue/cli-service": "~5.0.0",
+    "gh-pages": "^6.1.1",
     "sass": "^1.32.7",
     "sass-loader": "^12.0.0",
     "vue-template-compiler": "^2.6.14"
